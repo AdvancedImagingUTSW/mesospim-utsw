@@ -1,0 +1,26 @@
+To do...
+
+Don't worry about the left side, just make sure we have absolutely everything ordered that we will need to finish construction.
+
+1) Check on proto labs order?  Where is our mount for the upper stages?  Do we have everything we need there too?
+2) ETL.  Run the calibration again, just to make sure that orientation/gravity/whatever didn't change the values.
+3) ETL.  Figure out what type of amplitude is necessary to image a specific FOV.
+
+4).  We should measure the magnification of the microscope for all the different settings.  
+4a.  Get a micrometer ruler etched glass.  Take images of it at each different magnification, measure the distance between the 
+pixels as accurately as possible, and that give microns/pixel.
+
+Start to assemble a table...
+Mag.  X-galvo amplitude.  ETL amplitude.
+1x 5V...
+
+Where are the beams actually supposed to be placed?  At first, kinda made sense that the beam would be at the 
+25% mark for the right, and the 75% mark for the left.
+However, that also doesn't really make sense either.  If we have to use the ETL to scan the beam, the rolling shutter will go 
+across the entire field of view.  So, presumably, the centroid of the beam should be in the center of the camera.
+
+Once we have a feel for the ETL.  For using the light-sheet mode.  We can put large fluorescent beads into agarose, 
+and make sure that the field of view is uniform when in the ASLM mode.  
+For us usually, we adjust the x-galvo offset to change the phase of the remote focusing relative to the camera.  
+
+In general, try to understand everything on the 'parameters' page.
