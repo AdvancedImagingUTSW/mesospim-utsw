@@ -31,7 +31,7 @@ def load_config():
     ''' This needs an placeholder QApplication to work '''
     cfg_app = QtWidgets.QApplication(sys.argv)
     current_path = os.path.abspath('./config')
-    global_config_path = r'C:\Users\ASLM\Desktop\mesoSPIM-control\mesoSPIM\config\mesospim_config.py'
+    global_config_path = r'C:\Users\ASLM\Desktop\mesoSPIM-utsw\mesoSPIM\config\mesospim_config.py'
     # global_config_path = ''
     # global_config_path , _ = QtWidgets.QFileDialog.getOpenFileName(None,\
     # 'Open microscope configuration file',current_path)
